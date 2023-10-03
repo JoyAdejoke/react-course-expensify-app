@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\JOY MOI MOI\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add enzyme@2.9.1
+  C:\Program Files\nodejs\node.exe C:\Users\JOY MOI MOI\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add numeral@2.0.6
 
 PATH: 
   C:\Users\JOY MOI MOI\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\JOY MOI MOI\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Python27;C:\Users\JOY MOI MOI\AppData\Local\Microsoft\WindowsApps;C:\Users\JOY MOI MOI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JOY MOI MOI\AppData\Local\GitHubDesktop\bin;C:\Users\JOY MOI MOI\AppData\Roaming\npm;C:\Python27;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -14,12 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  SyntaxError: C:\Users\JOY MOI MOI\Desktop\react-course-project\expensify-app\package.json: Expected double-quoted property name in JSON at position 1336
-      at JSON.parse (<anonymous>)
-      at C:\Users\JOY MOI MOI\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
-      at Generator.next (<anonymous>)
-      at step (C:\Users\JOY MOI MOI\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
-      at C:\Users\JOY MOI MOI\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+  Error: EPERM: operation not permitted, unlink 'C:\Users\JOY MOI MOI\Desktop\react-course-project\expensify-app\node_modules\acorn-globals\node_modules\.bin'
 
 npm manifest: 
   {
@@ -48,7 +43,6 @@ npm manifest:
       "css-loader": "0.28.4",
       "express": "4.15.4",
       "extract-text-webpack-plugin": "3.0.0",
-      
       "moment": "2.18.1",
       "node-sass": "9.0.0",
       "normalize.css": "7.0.0",
@@ -64,12 +58,12 @@ npm manifest:
       "style-loader": "0.18.2",
       "uuid": "3.1.0",
       "validator": "8.0.0",
-      "webpack": "3.1.0",
-      "webpack-dev-server": "2.5.1"
+      "webpack": "3.1.0"
     },
     "devDependencies": {
       "jest": "20.0.4",
       "live-server": "^1.2.2",
+      "webpack-dev-server": "2.5.1"
     }
   }
 
