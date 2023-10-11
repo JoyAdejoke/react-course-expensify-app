@@ -1,5 +1,10 @@
-
+import configureMockStore from 'redux-mock-store';
+import thunk from 'redux-thunk';
 import { addExpense, editExpense, removeExpense } from "../../actions/expenses";
+import expenses from "../../fixtures/expenses";
+import database from '../../firebase/firebase';
+
+const createMockStore = configureMockStore([thunk])
 
 test('should setup remove expense action object', () => {
     const action = removeExpense({ id: '123abc' });
